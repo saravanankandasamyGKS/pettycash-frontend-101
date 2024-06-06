@@ -1,4 +1,4 @@
-const Api = "https://pettycash-backend-102-10.onrender.com";
+const Api = "https://petty-cash-backend-w7d0.onrender.com";
 
 export async function RegisternewUser(newuser) {
   const res = await fetch(`${Api}/register`, {
